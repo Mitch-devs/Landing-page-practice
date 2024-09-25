@@ -76,6 +76,15 @@ h1{
 
 #sign-up-higher{
     margin-left: 10rem;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+#sign-up-higher:hover{
+    box-shadow: 0 0 15px #3882F6;
 }
 
 #random-information{
@@ -122,7 +131,8 @@ figcaption{
 #quote{
    display: flex;
    justify-content: center;
-   margin: 0 auto;  
+   margin: 0 auto; 
+   padding-left: 300px;
     inline-size: 500px;
     font-size: 36px;
     font-weight: 200;
@@ -135,11 +145,72 @@ figcaption{
     justify-content: center;
     margin-left: 725px;
     margin-top: -60px;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     font-style: normal;
     color: #1F2937;
 }
 
+.action-call-container{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 4rem;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.action-call{
+    color: #F9FAF8;
+    padding-bottom: 1.5rem;
+}
+
+.action-call h3, p{
+   margin-left: -250px;
+}
+
+.action-call p{
+    display: inline;
+}
+
+#sign-up-lower{
+    display: inline;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: -25px;
+    padding: 5px 20px 5px 20px;
+    border: solid #F9FAF8 2px;
+    border-radius: 5px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: 535;
+    transition: color 1s, background-color 1s;
+
+}
+#sign-up-lower:hover{
+    color: #3882F6;
+    background-color: #F9FAF8;
+    box-shadow: 0 0 15px #F9FAF8;
+}
+
+button:active {
+    transform: translateY(2px);
+  }
 
 
+
+footer{
+    background-color: #1F2937;
+    height: 100px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 45px;
+    padding-bottom: -30px;
+    color: #F9FAF8;
+}
