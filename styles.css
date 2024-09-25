@@ -87,6 +87,9 @@ h1{
     box-shadow: 0 0 15px #3882F6;
     transform: scale(1.2);
 }
+#sign-up-higher:active{
+    transform: translateY(2px);
+}
 
 #random-information{
     color: #1F2937;
