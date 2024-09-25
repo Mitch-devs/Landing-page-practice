@@ -85,10 +85,10 @@ h1{
 
 #sign-up-higher:hover{
     box-shadow: 0 0 15px #3882F6;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 #sign-up-higher:active{
-    transform: translateY(2px);
+    transform: translateY(1px);
 }
 
 #random-information{
